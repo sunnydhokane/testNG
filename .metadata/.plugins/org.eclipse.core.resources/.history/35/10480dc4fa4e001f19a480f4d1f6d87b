@@ -1,0 +1,16 @@
+package TESTNG.demoTestNG;
+
+import org.testng.annotations.Test;
+
+public class logtest {
+	@Test
+	public void btest() {
+		System.out.println("hi welcome to test 2");
+	}
+	@Test
+	public void atest() {
+		System.out.println("hi welcome to test");
+		
+	}
+	
+}

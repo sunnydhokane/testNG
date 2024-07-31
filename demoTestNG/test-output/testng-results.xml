@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T11:58:28 IST" name="demoTestNG by groups" finished-at="2024-07-31T11:58:28 IST" duration-ms="99">
+    <groups>
+      <group name="h1">
+        <method signature="demo2.clogin()[pri:1, instance:TESTNG.demoTestNG.demo2@2a7f1f10]" name="clogin" class="TESTNG.demoTestNG.demo2"/>
+        <method signature="demo2.elogin()[pri:2, instance:TESTNG.demoTestNG.demo2@2a7f1f10]" name="elogin" class="TESTNG.demoTestNG.demo2"/>
+      </group> <!-- h1 -->
+    </groups>
+    <test started-at="2024-07-31T11:58:28 IST" name="GRP-h1" finished-at="2024-07-31T11:58:28 IST" duration-ms="99">
+      <class name="TESTNG.demoTestNG.demo2">
+        <test-method signature="clogin()[pri:1, instance:TESTNG.demoTestNG.demo2@2a7f1f10]" started-at="2024-07-31T11:58:28 IST" name="clogin" description="this is b login test" finished-at="2024-07-31T11:58:28 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clogin -->
+        <test-method signature="elogin()[pri:2, instance:TESTNG.demoTestNG.demo2@2a7f1f10]" started-at="2024-07-31T11:58:28 IST" name="elogin" description="this is a login test" finished-at="2024-07-31T11:58:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+      </class> <!-- TESTNG.demoTestNG.demo2 -->
+    </test> <!-- GRP-h1 -->
+  </suite> <!-- demoTestNG by groups -->
+</testng-results>
